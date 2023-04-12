@@ -1,3 +1,6 @@
+task 1
+
+
 var n=prompt("reqemi daxil et");
 if (99<n<1000){
 var teklik=n%10;
@@ -16,6 +19,10 @@ else{
 else if(n>999){
     console.log("Zehmet olmasa 3 reqemli eded daxil edin");
 }
+
+
+task 2
+
 
 
 alert();
