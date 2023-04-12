@@ -6,7 +6,7 @@ var onluq=(n-teklik)%100/10;
 console.log(onluq);
 var yuzluk=(n-n%100)%1000/100;
 console.log(yuzluk);
-if (teklik==onluq==yuzluk){
+if (teklik==onluq && teklik==yuzluk && yuzluk==onluq){
     console.log("reqemler eynidir");
 }
 else{
